@@ -8,6 +8,9 @@
 
 #define GHOST_PASS      ' '
 
+#ifdef __cplusplus
+extern "C"
+#endif
 const char* getpass(char e, size_t size);
 
 #endif // GETPASS_H
